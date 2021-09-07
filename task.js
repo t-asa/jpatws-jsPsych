@@ -142,3 +142,22 @@ var timeline = [];
   timeline.push(instructions);
   timeline.push(stroop);
   timeline.push(debrief);
+
+
+
+  var timeline = [];
+  timeline.push(trial1);
+  timeline.push(trial2);
+
+  timeline[trial1, trial2, trial3]
+
+
+var timeline = [trial];
+
+jsPsych.init({  
+    timeline: timeline,
+    on_finish: function(){
+
+      jsPsych.data.displayData(); //画面に呈示する
+    }
+  })
